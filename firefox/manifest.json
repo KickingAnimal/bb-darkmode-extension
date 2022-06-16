@@ -4,20 +4,16 @@
   "name": "blackboard-darkmode",
   "version": "0.1",
   "homepage_url": "https://github.com/KickingAnimal/bb-darkmode-extension",
-
-  "background": {
-    "scripts": ["./dark-theme.js"]
-  },
   "content_scripts": [
     {
       "matches": ["*://blackboard.hanze.nl/*", "*://hanze.blackboard.com/*"],
-      "css": ["dark-mode.css"]
+      "exclude_matches": ["*://blackboard.hanze.nl/webapps/login/"],
+      "css": ["dark-mode.css"],
+      "run_at": "document_start"
     }
   ],
-
   "page_action": {
     "browser_style": true
   },
-
   "permissions": ["activeTab", "tabs"]
 }

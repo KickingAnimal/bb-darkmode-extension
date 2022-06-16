@@ -1,234 +1,878 @@
 .container {
-    border-radius: 10px;
-    background: #252525;
-    border: none;
-    margin: 0px;
-    }
-    
-    /*#module\:_788_1, #module\:_744_1, #module\:_383_1, #module\:_805_1, #module\:_772_1{
-    display: none;
-    }
-        
-    #paneTabs {
-    display: none;
-    }
+  border-radius: 10px !important;
+  background: #252525 !important;
+  border: none !important;
+  color: #fff;
+}
 
-    #div_181_1 > ul:nth-child(n) > li:nth-child(n) > img:nth-child(n) {
-    display: none;
-    }
-    
-    #module\:_787_1 {
-    display: none;
-    }
-        
-    .actionBarMicro {
-        display: none;
-    }*/
-    
-    #topTabs{
-    background: #252525;
-    }
-    
-    .portlet {
-    /*background: #313131;
-    border: #313131;*/
-    background: #252525;
-    border: none;
-    }
-    
-    #anonymous_element_1, #anonymous_element_2, #anonymous_element_3, #anonymous_element_4, #anonymous_element_5, #anonymous_element_6, #anonymous_element_7, #anonymous_element_8, #anonymous_element_9, #anonymous_element_10, #anonymous_element_11, #anonymous_element_12, #anonymous_element_13, #anonymous_element_14,#anonymous_element_15, #anonymous_element_16, #anonymous_element_17, #anonymous_element_18, #anonymous_element_19, #anonymous_element_20, #anonymous_element_21, #anonymous_element_22, #anonymous_element_23{
-    background: #313131;
-    color: #fff;
-    }
-    
-    #anonymous_element_7 > span:nth-child(1) {
-    color: #fff;
-    }
-    
-    #content {
-    background: #2B2B2B
-    }
-    
-    .collapsible {
-    color: #fff;
-    border-top: 1px solid #252525;
-    }
-    
-    #div_1_1 > h3:nth-child(2) {
-    color: #fff;
-    }
-    
-    .dataBlockLabel {
-    color: #fff;
-    }
-    
-    body {
-    height: 100vh;
-    background-color: #252525;
-    line-height: 23px;
-    }
+#topTabs {
+  background: #252525 !important;
+}
 
-    html {
-        background-color: #252525;
-    }
-    
-    .collapsible:hover {
-    background-color: #313131;
-    }
-    
-    #My_Announcements_Tools {
-    /*background-color: #313131;*/
-    background-color: #252525;
-    }
-    
-    .locationPane {
-    background-color: #313131;
-    }
-    
-    #orgSearchText {
-    background-color: #2B2B2B;
-    color: #fff;
-    }
-    
-    .divider {
-    color: #fff;
-    }
-    
-    #Hanze_Student_Support_Tools > div:nth-child(n) > p, #Hanze_Student_Support_Tools > div:nth-child(n) > * > *, #Hanze_Student_Support_Tools > div:nth-child(1) > p:nth-child(4) > span:nth-child(1) > span:nth-child(2) {
-    color: #fff;
-    }
+.portlet {
+  background: #252525 !important;
+  border: none !important;
+}
 
-    html body#learn-oe-body div#globalNavPageContentArea div.locationPane {
-    padding-bottom: 0px;
-    }
-    
-    input[type="text"], input[type="password"], select {
-    border: 1px solid #000;
-    }
-    
-    #pageTitleText {
-    color: #fff;
-    }
-    
-    html.ally-learn-version-3900-30-0.ally-learn-version-3900-30-x.ally-learn-version-3900-x-x body#learn-oe-body.ally-tooltips-enabled div#globalNavPageContentArea div#breadcrumbs.breadcrumbs.clearfix {
-    background-color: #2B2B2B;
-    color: #fff;
-    }
-    
-    html.ally-learn-version-3900-30-0.ally-learn-version-3900-30-x.ally-learn-version-3900-x-x body#learn-oe-body.ally-tooltips-enabled div#globalNavPageContentArea div#breadcrumbs.breadcrumbs.clearfix div.path.noToggle ol.clearfix li.root.coursePath a{
-    color: #fff;
-    }
-    
-    #crumb_2 {
-    color: #fff;
-    } 
-    
-    html.ally-learn-version-3900-30-0.ally-learn-version-3900-30-x.ally-learn-version-3900-x-x body#learn-oe-body.ally-tooltips-enabled div#globalNavPageContentArea div.locationPane nav#navigationPane.navigationPane div#menuWrap.menuWrap div.menuWrap-inner div#courseMenuPalette.navPalette.listCm.navPaletteExpCol div.navPaletteContent {
-    background-color: #2B2B2B;
-    }
-    
-    #courseMenuPalette div.navPaletteContent {
-    background:  #2B2B2B;
-    }
-    
-    #courseMenuPalette_contents li {
-    background:  #2B2B2B;
-    }
-    
-    #courseMenuPalette div.navPaletteContent ul li a, #courseMenuPalette h3 a, #previewCourseMenu h3 a, .navPaletteContent h3 a.submenuLink::before, .navPaletteContent h3 a.submenuLink_active::before, #courseMenuPalette div.navPaletteContent ul li a span, #courseMenuPalette .navPaletteContent .subhead {
-    color: #fff;
-    }
-    
-    html.ally-learn-version-3900-30-0.ally-learn-version-3900-30-x.ally-learn-version-3900-x-x body#learn-oe-body.ally-tooltips-enabled div#globalNavPageContentArea div.locationPane div#contentPanel.contentPane div.shadow div#editmodeWrapper div#content.contentBox div#containerdiv.container.clearfix form#announcementForm ul#announcementList.announcementList.announcementList-read > * > div.details > *  {
-    color: #fff;
-    }
-    
-    html.ally-learn-version-3900-30-0.ally-learn-version-3900-30-x.ally-learn-version-3900-x-x body#learn-oe-body.ally-tooltips-enabled div#globalNavPageContentArea div.locationPane div#contentPanel.contentPane div.shadow div#editmodeWrapper div#content.contentBox div#containerdiv.container.clearfix form#announcementForm ul#announcementList.announcementList.announcementList-read li#_849795_1.clearfix > h3 {
-    color: #fff;
-    }
-    
-    #anonymous_element_13, #anonymous_element_14, #anonymous_element_15, #anonymous_element_16, #anonymous_element_17, #anonymous_element_18 {
+h2#anonymous_element_1,
+h2#anonymous_element_2,
+h2#anonymous_element_3,
+h2#anonymous_element_4,
+h2#anonymous_element_5,
+h2#anonymous_element_6,
+h2#anonymous_element_7,
+h2#anonymous_element_8,
+h2#anonymous_element_9,
+h2#anonymous_element_10,
+h2#anonymous_element_11,
+h2#anonymous_element_12,
+h2#anonymous_element_13,
+h2#anonymous_element_14,
+h2#anonymous_element_15,
+h2#anonymous_element_16,
+h2#anonymous_element_17,
+h2#anonymous_element_18,
+h2#anonymous_element_19,
+h2#anonymous_element_20,
+h2#anonymous_element_21,
+h2#anonymous_element_22,
+h2#anonymous_element_23 {
+  background: #4f4f4f !important;
+  border-radius: 10px 10px 0 0 !important;
+}
+
+#anonymous_element_1,
+#anonymous_element_2,
+#anonymous_element_3,
+#anonymous_element_4,
+#anonymous_element_5,
+#anonymous_element_6,
+#anonymous_element_7,
+#anonymous_element_8,
+#anonymous_element_9,
+#anonymous_element_10,
+#anonymous_element_11,
+#anonymous_element_12,
+#anonymous_element_13,
+#anonymous_element_14,
+#anonymous_element_15,
+#anonymous_element_16,
+#anonymous_element_17,
+#anonymous_element_18,
+#anonymous_element_19,
+#anonymous_element_20,
+#anonymous_element_21,
+#anonymous_element_22,
+#anonymous_element_23 {
+  color: #fff !important;
+}
+
+/* Overwrite old folder icons */
+#div_181_1 ul li img {
+  content: url("http://i.imgur.com/bkXL4hl.png");
+  margin-right: 5px;
+  width: 15px;
+}
+
+#anonymous_element_7 > span:nth-child(1) {
+  color: #fff !important;
+}
+
+#content {
+  background: #2b2b2b !important;
+}
+
+a,
+.portlet .subCategories li a,
+.blockGroups .itemHead,
+.blockGroups .itemHeadOpen {
+  color: #fff !important;
+}
+.portlet h2.dragHandle
+.edit_controls:hover ~ .collapsible, 
+h2.dragHandle:hover + .collapsible {
+  background-color: #4f4f4f !important;
+}
+
+.module-dragstate .reorder,
+.portlet .reorder {
+  border: none !important;
+  bottom: 0 !important;
+  top: 0 !important;
+  left: -15px !important;
+  border-radius: 10px 0 0 10px !important;
+  background: #4f4f4f !important;
+}
+
+.reorder {
+  width: 25px !important;
+}
+
+.portlet .collapsible {
+  background-color: #313131;
+  color: #fff !important;
+  border-top: none !important;
+  border-radius: 0 0 10px 10px !important;
+}
+
+.collapsible table {
     color: #fff !important;
-    }
-    
-    #courseMenuPalette_paletteTitleHeading h3 {
-    background-color: inherit;
-    }
-    
-    .announcementInfo > span {
-    color: #fff;
-    }
-    
-    .localViewToggle {
-    background-color: inherit;
-    }
-    
-    .contentPane .shadow {
-    border-top: 0px;
-    }
+}
 
-    .paneTabs .active a, .paneTabs .active a:hover, .paneTabs .active a:focus, .paneTabs .activepersonal a, .paneTabs .activepersonal a:hover, .paneTabs .active h3{
-        color:#fff;
+.appTabs td {
+    padding-bottom: 0 !important;
+}
 
-    }
-    .actionBar ul li a:hover{
-        color: #fff;
-        background-color: #010;
-    }
+table.bouncer,
+.paneTabs a {
+    border: none !important;
+}
 
-    .contentPane{
-        background-color: #2B2B2B;
-    }
 
-    div#copyright{
-        color: rgba(255,255,255,0.6)
-    }
+.paneTabs .active a,
+.paneTabs .activepersonal a,
+.paneTabs .active h3 {
+    background-color: #474747 !important;
+    border-radius: 10px !important;
+}
 
-    .logo{
-        mask-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.trustradius.com%2Fvendor-logos%2FyK%2Fdv%2F5WNBTTTOLMUK.PNG&f=1&nofb=1);
-    }
+.paneTabs .active a:hover,
+.paneTabs .active a:focus,
+.paneTabs .activepersonal a:hover {
+    background-color: #5a5a5a !important;
+}
 
-    .announcementInfo p span, .announcementInfo span, .itemDetails span{
-        color: #f00;
-    }
-    .announcementInfo p, .announcementInfo p, .itemDetails p{
-        color: #fff
-    }
+.paneTabs ul li[class=" "] a:hover,
+.paneTabs ul li[class=" "] a:focus {
+    background-color: #3d3d3d !important;
+    border-radius: 10px !important;
+}
 
-    .inlineGrader{
-        background-color: #252525;
-    }
+.paneTabs ul li a {
+    color: #fff !important;
+    padding: 8px 24px !important;
+    margin: 4px 0 !important;
+}
 
-    .submitStepFixed{
-        background-color: #2B2B2B;
-    }
+.paneTabs ul .active,
+.paneTabs ul li {
+    transition-duration: 0.4s !important;
+    padding: 0 7px !important;
+}
 
-    .feedbackWrapper .userInfo{
-        color: #f00;
-    }
-    
-    .feedbackWrapper .dateStamp{
-        color: #eee;
-    }
+#div_1_1 > h3:nth-child(2) {
+  color: #fff !important;
+}
 
-    .feedbackWrapper .vtbegenerated{
-        color: #fff;
-    }
-    .gradingPanel .comment p{
-        color: #fff;
-    }
+.dataBlockLabel {
+  color: #fff !important;
+}
 
-    .path a:hover, .path a:focus, .simplePath a:hover, .simplePath a:focus{
-        color: #0070ff;
-    }
-    .path a, .simplePath a{
-        color: #fff;
-    }
+body {
+  height: 100vh !important;
+  background-color: #252525 !important;
+  line-height: 23px !important;
+}
 
-    .path .placeholder, .simplePath .placeholder{
-        color: #fff;
-    }
+html {
+  background-color: #252525 !important;
+}
 
-    .breadcrumbs, .paneTabs{
-      border-bottom: none;
-    }
+.collapsible:hover {
+  background-color: #313131 !important;
+}
+
+#My_Announcements_Tools {
+  background-color: #252525 !important;
+}
+
+.locationPane {
+  background-color: #313131 !important;
+}
+
+.divider {
+  color: #fff !important;
+}
+
+#Hanze_Student_Support_Tools > div:nth-child(n)>p,
+#Hanze_Student_Support_Tools > div:nth-child(n) > * > *,
+#Hanze_Student_Support_Tools > div:nth-child(1) > p:nth-child(4) > span:nth-child(1) > span:nth-child(2) {
+  color: #fff !important;
+}
+
+html body#learn-oe-body div#globalNavPageContentArea div.locationPane {
+  padding-bottom: 0px !important;
+}
+
+input[type="text"]:not(.gradeEntry),
+input[type="password"],
+select {
+  border: none !important;
+  background-color: #4f4f4f !important;
+  color: #fff !important;
+}
+
+#pageTitleText span,
+#pageTitleText {
+  color: #fff !important;
+}
+
+html.ally-learn-version-3900-30-0.ally-learn-version-3900-30-x.ally-learn-version-3900-x-x body#learn-oe-body.ally-tooltips-enabled div#globalNavPageContentArea div#breadcrumbs.breadcrumbs.clearfix {
+  background-color: #2b2b2b !important;
+  color: #fff !important;
+}
+
+html.ally-learn-version-3900-30-0.ally-learn-version-3900-30-x.ally-learn-version-3900-x-x body#learn-oe-body.ally-tooltips-enabled div#globalNavPageContentArea div#breadcrumbs.breadcrumbs.clearfix div.path.noToggle ol.clearfix li.root.coursePath a {
+  color: #fff !important;
+}
+
+#crumb_2 {
+  color: #fff !important;
+}
+
+#courseMenuPalette div.navPaletteContent ul li a,
+#courseMenuPalette h3 a,
+#previewCourseMenu h3 a,
+.navPaletteContent h3 a.submenuLink::before,
+.navPaletteContent h3 a.submenuLink_active::before,
+#courseMenuPalette div.navPaletteContent ul li a span,
+#courseMenuPalette .navPaletteContent .subhead {
+  color: #fff !important;
+}
+
+html.ally-learn-version-3900-30-0.ally-learn-version-3900-30-x.ally-learn-version-3900-x-x body#learn-oe-body.ally-tooltips-enabled div#globalNavPageContentArea div.locationPane div#contentPanel.contentPane div.shadow div#editmodeWrapper div#content.contentBox div#containerdiv.container.clearfix form#announcementForm ul#announcementList.announcementList.announcementList-read>*>div.details>* {
+  color: #fff !important;
+}
+
+html.ally-learn-version-3900-30-0.ally-learn-version-3900-30-x.ally-learn-version-3900-x-x body#learn-oe-body.ally-tooltips-enabled div#globalNavPageContentArea div.locationPane div#contentPanel.contentPane div.shadow div#editmodeWrapper div#content.contentBox div#containerdiv.container.clearfix form#announcementForm ul#announcementList.announcementList.announcementList-read li#_849795_1.clearfix>h3 {
+  color: #fff !important;
+}
+
+#courseMenuPalette div.navPaletteContent,
+#courseMenuPalette_paletteTitleHeading h3,
+#courseMenuPalette_contents li {
+  background-color: #313131 !important;
+}
+
+#courseMenu_link::before {
+  color: #aaa !important;
+}
+
+.actionBarMicro .secondaryButton > a,
+#actionBarBrand, .actionBar, .actionBarMicro {
+  background-color: #4f4f4f !important;
+}
+
+
+#courseMenuPalette_paletteTitleHeading h3 {
+  background-color: inherit !important;
+}
+
+.localViewToggle {
+  background-color: inherit !important;
+}
+
+.contentPane .shadow {
+  border-top: 0px !important;
+}
+
+.actionBar ul li a:hover {
+  color: #fff !important;
+  background-color: #010 !important;
+}
+
+.contentPane {
+  background-color: #2b2b2b !important;
+}
+
+div#copyright {
+  color: rgba(255, 255, 255, 0.6) !important;
+}
+
+.logo {
+  mask-image: url(https://media.trustradius.com/vendor-logos/yK/dv/5WNBTTTOLMUK.PNG) !important;
+}
+
+.inlineGrader {
+  background-color: #252525 !important;
+}
+
+.submitStepFixed {
+  background-color: #2b2b2b !important;
+}
+
+.feedbackWrapper .userInfo {
+  color: #f00 !important;
+}
+
+.feedbackWrapper .dateStamp {
+  color: #eee !important;
+}
+
+.feedbackWrapper .vtbegenerated {
+  color: #fff !important;
+}
+
+.gradingPanel .comment p {
+  color: #fff !important;
+}
+
+.path a:hover,
+.path a:focus,
+.simplePath a:hover,
+.simplePath a:focus {
+  color: #0070ff !important;
+}
+
+#contentArea,
+.containerOptions,
+.containerPortal,
+.path,
+.path .placeholder,
+.simplePath
+.simplePath .placeholder {
+  color: #fff !important;
+}
+
+.helphelp {
+  color: #c1c1c1 !important;
+}
+
+.breadcrumbs,
+.paneTabs {
+  border-bottom: none !important;
+  background-color: #313131 !important;
+}
+
+
+#CourseID {
+  margin-left: 9px !important;
+}
+
+.paletteItems :hover,
+.contentListPlain .liItem:hover {
+  background-color: #313131 !important;
+  border-color: transparent !important;
+  border-radius: 10px !important;
+}
+
+.paletteItems li.selectedItem,
+.paletteItems li.selectedItem:hover,
+.paletteItems li.selectedItem:focus,
+.paletteItems li.active,
+.paletteItems li.active:hover,
+.paletteItems li.active:focus {
+  background-color: transparent !important;
+}
+
+.inventory {
+  background-color: #313131 !important;
+  color: #aaa !important;
+}
+
+.inventory > tbody tr td,
+.inventory > tbody tr th {
+  border: none !important;
+}
+
+.inventory > tbody .gray,
+.inventory > tbody .gray td,
+.inventory > tbody .gray th {
+  background-color: #4f4f4f !important;
+}
+
+.inventory > thead tr th.sorted,
+.splashTable thead tr th.sorted,
+th.sorted {
+  background: transparent !important;
+}
+
+.inventory > thead tr th.sorted a,
+.inventory > thead tr th,
+.splashTable thead tr th {
+  color: #fff !important;
+  border: none !important;
+}
+
+.inventoryListTableContainerDiv {
+  border-radius: 10px !important;
+}
+
+.inventoryListHead {
+  background-color: #4f4f4f !important;
+}
+
+.inventory > tbody tr:last-child td,
+.inventory > tbody tr:last-child th {
+  border: none !important;
+}
+
+.moduleCategory,
+.moduleDescription,
+.noBatchActions,
+.requiredModule {
+  color: #fff !important;
+}
+
+.liItem .contentListRightOffset h3 {
+  background-color: transparent !important;
+}
+
+.genericButton,
+.genericButtonImg,
+input[type="submit"].genericButton,
+.backLink a,
+.browse,
+.browseIcon,
+.rumble h3 + ul > li > a,
+.rumble_top h3 + ul > li > a,
+.paging a,
+.itemHeaderControl > a,
+.actionMenuButton,
+.button-3,
+.button-3-img,
+.button-4,
+.button-4-img, 
+#toolsSearchBox + .button-4,
+.treeContainer .tree li a.button-4-img,
+.rumble a,
+.rumble_top a,
+.rumble .abutton,
+.rumble_top .abutton {
+  background-color: #4f4f4f !important;
+  box-shadow: none !important;
+}
+
+.eval-links .genericButton,
+.eval-links .button-4,
+.eval-links input[type="button"].genericButton {
+  color: #00a8ea !important;
+}
+
+.dateSelector,
+.eudModule .eudModule-inner, 
+.styledModule-dark .module-inner,
+.portlet .portletBlock {
+  border: none !important;
+}
+
+.cmdiv {
+  background: #313131;
+  border: none !important;
+  border-radius: 10px !important;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) !important;
+}
+
+.cmdiv ul {
+  border: none !important;
+}
+
+.cmdiv ul li a:hover {
+  background-color: #4f4f4f !important;
+  border-color: transparent !important;
+  border-radius: 10px !important;
+}
+
+.portlet .subCategories li a,
+.blockGroups .itemHead {
+  border: none !important;
+}
+
+.portlet .noItems {
+  margin-bottom: 10px !important;
+}
+
+.blockGroups li span.itemHeadOpen + p {
+  background-color: #313131 !important;
+}
+
+.blockGroups .itemHeadOpen {
+  background-color: #4f4f4f !important;
+}
+
+.additional + p .warnFont, .noItems {
+  color: #fff !important;
+}
+
+.itemGroups {
+  margin: 0px 0px 12px !important;
+  padding: 4px 9px 0px !important;
+  background-color: #313131 !important;
+}
+
+.flag {
+  background-color: transparent !important;
+}
+
+.portlet h3,
+.portlet div.portletBlock h4,
+.portlet div.blockContents h4,
+.flyout h3,
+.viewHeader h3,
+.labelMenuItem {
+  color: #aaa !important;
+}
+
+.contentList > li,
+.buildList > li,
+.contentListPlain > li,
+.announcementList > li,
+.contentPageItem {
+  border: 1px solid transparent !important;
+}
+
+.cmdiv li.contextmenubar_top a,
+.cmdiv li.contextmenubar_top a:focus,
+.cmdiv li.contextmenubar_top a:hover,
+.currentTags a.closeCloud,
+.currentTags a.closeCloud:hover,
+.currentTags a.closeCloud:focus {
+  background: transparent !important;
+}
+
+
+.filterBarHorizontal {
+  background-color: #313131 !important;
+}
+
+.filterBarHorizontal ul li a:hover,
+.filterBarHorizontal ul li a.active {
+  background-color: #4f4f4f !important;
+  border: 1px solid transparent !important;
+  border-color: transparent !important;
+  border-radius: 10px !important;
+  box-shadow: none !important;
+}
+
+.gradeTableNew .grades_header {
+  background: #252525;
+  border: none !important;
+  color: #fff !important;
+}
+
+.gradeTableNew .row {
+  border: none !important;
+  color: #aaa !important;
+}
+
+/* Calculated row */
+.gradeTableNew .calculatedRow.row {
+  border-left-color: none !important;
+  border-right-color: none !important;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important;
+  background-color: #313131 !important;
+}
+
+.gradeTableNew .calculatedRow.row:nth-child(1) {
+  border-radius: 10px 10px 0 0 !important;
+}
+
+.gradeTableNew .calculatedRow.row:nth-child(2) {
+  border-radius: 0 0 10px 10px !important;
+  margin-bottom: 20px !important;
+}
+
+/* Grade row */
+.gradeTableNew .upcoming_item_row.row,
+.gradeTableNew .submitted_item_row.row,
+.gradeTableNew .graded_item_row.row {
+  background-color: #313131 !important;
+  border-radius: 10px !important;
+  margin-bottom: 10px !important;
+}
+
+/* Tooltip */
+.tooltip::after,
+.tooltipContainer .tooltip::after,
+.tooltipContainer-right .tooltip::after,
+.tooltipContainer-bot .tooltip::after,
+.tooltipContainer-left .tooltip::after {
+  content: none !important;
+}
+
+.tooltip {
+  background-color: #4f4f4f !important;
+  border-radius: 10px !important;
+  text-shadow: none !important;
+  -o-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  -khtml-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  background-color: none !important;
+  background-image: none !important;
+  background-image: none !important;
+}
+
+/* Grade details*/
+.contentDetailsHeader {
+  background: transparent !important;
+}
+
+.gradingPanelHeader {
+  background-color: #4f4f4f !important;
+  border-radius: 10px 10px 0 0 !important;
+}
+
+#assignmentInfo p {
+  color: #fff !important;
+}
+
+.inlineGrader .gradingPanel {
+  border: none !important;
+  padding-left: 10px !important;
+}
+
+/* Attempts */
+#containerdiv h3.steptitle.noNumber {
+  background-color: #252525 !important;
+  margin: 20px 0;
+  padding: 0 !important;
+}
+
+fieldset.info, div.info {
+  background-color: #313131 !important;
+  border-radius: 10px !important;
+}
+
+fieldset.info div.label {
+  color: #aaa !important;
+}
+
+div.field, div.noLabelField {
+  color: #fff !important;
+}
+
+.attachments td,
+.attachments th,
+.inventory-simple td,
+.inventory-simple th {
+  color: #fff !important;
+}
+
+.attachments tr:first-child {
+  border-radius: 10px !important;
+  border-top: none !important;
+}
+
+.attachments tr:first-child > th {
+  background-color: #313131 !important;
+}
+
+.attachments tr:first-child > th:first-child {
+  border-radius: 10px 0 0 0 !important;
+}
+
+.attachments tr:first-child > th:last-child {
+  border-radius: 0 10px 0 0 !important;
+}
+
+.attachments tr {
+  border-bottom: 1px solid #313131 !important;
+}
+
+/* Rubric */
+.contentAreaBlock {
+  background: transparent !important;
+  border: none !important;
+}
+
+.contentListPlain h3 span,
+.gradeInfoHeader h3 span {
+  color: #fff !important;
+}
+
+.rubricGradingTotalPoints,
+.rubricGradingOverride {
+  border: none !important;
+  color: #fff !important;
+}
+
+.rubricControlContainer .containerTabs li a,
+.rubricControlContainer .containerTabs li h3 {
+  border: none !important;
+}
+
+.rubricGradingTable,
+.rubricTable {
+  background-color: #313131 !important;
+  border-radius: 16px !important;
+}
+
+.rubricTable thead th {
+  border-left: 1px solid transparent !important;
+}
+
+.rubricGradingTable th,
+.rubricTable th {
+  color: #aaa !important;
+}
+
+.rubricGradingTable tbody th,
+.rubricTable tbody th {
+  border-top: 1px solid transparent !important;
+}
+
+.rubricGradingTable tbody td,
+.rubricTable tbody td {
+  border: none !important;
+  background: #4f4f4f  !important;
+  color: #fff !important;
+  border-radius: 10px !important;
+}
+
+/* Selected cell */
+.rubricGradingTable .selectedCell {
+  background: #f5ad6a !important;
+  box-shadow: none !important;
+  color: #000 !important;
+}
+
+.rubricGradingTable .rangePercent {
+  color: #aaa !important;
+}
+
+.rubricGradingTable .selectedCell .rangePercent {
+  color: #000 !important;
+}
+
+.rubricGradingTable .radioLabel,
+.rubricGradingTable .selectedCell .radioLabel,
+.rubricGradingTable .selectedCell .rubricSelectedValue,
+.rubricGradingTable .selectedCell .rubricCellDescription {
+  padding: 0 !important;
+}
+
+/* List rubric */
+.rubricGradingList .columnPalette {
+  background-color: #313131 !important;
+  border: none !important;
+  border-radius: 10px !important;
+  color: #fff !important;
+  margin-bottom: 10px !important;
+}
+
+.rubricGradingList .columnPalette .rangePercent {
+  color: #aaa !important;
+}
+
+.rubricGradingList .feedback {
+  background-color: #252525 !important;
+  color: #fff !important;
+}
+
+.rubricGradingList h4 {
+  color: #ccc !important;
+}
+
+.rubricGradingList h4 span {
+  background-color: #252525 !important;
+  border-radius: 10px !important;
+  color: #fff !important;
+  padding: 5px 10px !important;
+}
+
+/* Dialog */
+div.lb-wrapper {
+  background-color: #313131 !important;
+  box-shadow: none !important;
+}
+
+div.lb-wrapper div.lb-header {
+  background-color: #313131 !important;
+}
+
+div.lb-wrapper div.lb-header h2 {
+  color: #fff !important;
+}
+
+div.lb-wrapper div.lb-content {
+  background-color: #313131 !important;
+}
+
+.lb-container, 
+.lb-content .container {
+  color: #fff !important;
+}
+
+/* Inleverpunt */
+.contentList .details,
+.contentList h3 span {
+  color: #fff !important;
+}
+
+.contentList .details .contextItemDetailsHeaders {
+  color: #aaa !important;
+}
+
+.contentList .liItem:hover {
+  background-color: #313131 !important;
+  border-color: transparent !important;
+  border-radius: 10px !important;
+}
+
+/* Announcements */
+.contentList > li,
+.announcementList > li {
+  background-color: #313131 !important;
+  border-radius: 10px !important;
+  margin-bottom: 10px !important;
+}
+
+.announcementList li h3,
+.announcementInfo > span {
+  color: #fff !important;
+}
+
+.announcementInfo p span,
+.announcementInfo span,
+.itemDetails span {
+  color: #f00 !important;
+}
+
+.vtbegenerated *,
+.vtbegenerated_div span,
+.announcementInfo p,
+.announcementInfo p,
+.itemDetails p {
+  background-color: transparent !important;
+  color: #fff !important;
+}
+
+.announcementFilter {
+  border: none !important;
+}
+
+.vtbegenerated table td {
+  background-color: transparent !important;
+  border-color: #fff !important;
+}
+
+/* Profile bar */
+.accordion_content {
+    background-color: #313131 !important;
+    box-shadow: none !important;
+    color: #fff !important;
+}
+
+.bottom-buttons,
+.flyout-menu .accordion_toggle span {
+    background-color: #4f4f4f !important;
+    border: 1px solid transparent !important;
+    color: #fff !important;
+}
+
+.bottom-buttons li {
+    border: none !important;
+}
+
+.bottom-buttons li a:hover {
+    background-color: #5a5a5a !important;
+}
+
+.bottom-buttons-help a.help,
+.bottom-buttons-home a.home {
+    background-image: url("http://i.imgur.com/uBVX3mP.png");
+}

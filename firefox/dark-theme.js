@@ -1,1 +1,0 @@
-browser.tabs.insertCSS({ details: CSS });
